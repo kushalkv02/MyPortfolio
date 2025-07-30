@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kushal KV - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">My Portfolio</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Kushal KV</span>
+                </h1>
+                <h2 class="hero-subtitle">Electronics & Communication Engineer</h2>
+                <p class="hero-description">
+                    Passionate about AI, Machine Learning, and Embedded Systems. 
+                    Building innovative solutions that bridge hardware and software.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card">
+                    <i class="fas fa-code"></i>
+                </div>
+                <div class="floating-card">
+                    <i class="fas fa-microchip"></i>
+                </div>
+                <div class="floating-card">
+                    <i class="fas fa-robot"></i>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Dedicated college student seeking opportunities to gain practical experience in a dynamic work environment. 
+                        Eager to apply my academic knowledge and skills while further developing my professional abilities. 
+                        Committed to delivering high-quality results and contributing to the success of the organization.
+                    </p>
+                    <div class="education-card">
+                        <h3>Education</h3>
+                        <div class="education-item">
+                            <h4>Bachelor of Engineering in Electronic and Communication</h4>
+                            <p>NITTE MEENAKSHI INSTITUTE OF TECHNOLOGY</p>
+                            <p>CGPA: <span class="highlight">8.44/10.0</span> | Graduation: Jun 2025</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-section">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h4>Programming</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">C/C++</span>
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">C# .NET</span>
+                                <span class="skill-tag">MATLAB</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Electronics</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Analog Electronics</span>
+                                <span class="skill-tag">Digital Electronics</span>
+                                <span class="skill-tag">VLSI</span>
+                                <span class="skill-tag">ARM</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Embedded Systems</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">STM32</span>
+                                <span class="skill-tag">Arduino</span>
+                                <span class="skill-tag">IoT</span>
+                                <span class="skill-tag">Embedded Systems</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Tools</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Xilinx Vivado</span>
+                                <span class="skill-tag">Cadence</span>
+                                <span class="skill-tag">Git</span>
+                                <span class="skill-tag">Postman</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Sign Language Detection Project -->
+                <div class="project-card" data-project="sign-language">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-hand-paper"></i>
+                        </div>
+                        <h3>Sign Language Detection</h3>
+                        <p class="project-brief">Real-time sign language detection using AI and computer vision</p>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">TensorFlow</span>
+                        <span class="tech-tag">Mediapipe</span>
+                        <span class="tech-tag">Flask</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/kushalkv02/realtime-handsign-detection" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <button class="project-expand" type="button">
+                            <i class="fas fa-expand"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Secure Chat Application -->
+                <div class="project-card" data-project="secure-chat">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Secure Chat Application</h3>
+                        <p class="project-brief">End-to-end encrypted peer-to-peer chat application</p>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Cryptography</span>
+                        <span class="tech-tag">Sockets</span>
+                        <span class="tech-tag">AES</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/kushalkv02/secure-chat-cli" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <button class="project-expand" type="button">
+                            <i class="fas fa-expand"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Medical QA Chatbot -->
+                <div class="project-card" data-project="medical-chatbot">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>Medical QA Chatbot using RAG</h3>
+                        <p class="project-brief">RAG-based chatbot for medical question answering with OCR</p>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">RAG</span>
+                        <span class="tech-tag">OCR</span>
+                        <span class="tech-tag">Streamlit</span>
+                        <span class="tech-tag">Langchain</span>
+                        <span class="tech-tag">LLama</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/kushalkv02/medical-QA-chatbot" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <button class="project-expand" type="button">
+                            <i class="fas fa-expand"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Application Development & Maintenance (ADM) – .NET Developer Intern</h3>
+                        <h4>Cognizant</h4>
+                        <p class="timeline-date">Mar 2025 - Jul 2025 · 5 months</p>
+                        <p class="timeline-location">Chennai, Tamil Nadu, India · On-site</p>
+                        <ul class="timeline-achievements">
+                            <li>Developed RESTful APIs using ASP.NET Core Web API with Entity Framework Core and SQL Server</li>
+                            <li>Integrated frontend using ASP.NET Core MVC for seamless user interaction with backend services</li>
+                            <li>Secured APIs with JWT Authentication and role-based authorization, tested APIs with Postman</li>
+                            <li>Applied SOLID principles and clean architecture to build maintainable and scalable applications</li>
+                            <li>Worked in an Agile setup and used Git for version control</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="achievements">
+                <h3>Achievements</h3>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h4>1st Place - IEEE CAS Bangalore Hackathon</h4>
+                        <p>Secured first place in a hackathon conducted by IEEE CAS Bangalore at Reva University. 
+                           Optimized clan selection to maximize soldier strength in the Kingdom of Codeopia using Python and OOP techniques.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:kvkushal2002@gmail.com">kvkushal2002@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+919739439455">+91 9739439455</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Bangalore, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/kushal-k-v-profile/" target="_blank">kushal-profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
